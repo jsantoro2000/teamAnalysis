@@ -1,0 +1,49 @@
+in main():
+- Check if arguments are valid and display error message if not.
+- Set pointers to each input and output file
+- Initialize variables from terminal input
+- Allocate memory for the team
+- Load old data onto structures and arrays
+- Add new data to those
+- Print combined data to the output file
+- Free any dynamically allocated memory
+
+in void normalizeLine(char* line):
+- Initialize pointers to start of line 
+- Initialize flag as zero
+- Use while loop to change tabs or multipaces to single space if pointer not already in space
+  - else copy character from first pointer to changing pointer
+    - reset flag to zero
+
+in char* loadData(int size, TeamMember theTeam[], char* name, int numStats)
+- Open file
+- Normalize the lines
+- Read and store header in firstLine
+- Use a for loop to read each line in the file
+    - Take and store ID, firstName, and lastName in the struct
+    - Allocate memory for memberData to hold the stats;
+    - Set statsStart to the first line after the first three fields
+    - Use a for loop to read all stats and store in array
+- Close the file
+- Return firstLine
+
+in char* addData(TeamMember theTeam[], char* name, int numStats, int numPlayers):
+- Open the file
+- Normalize the lines
+- Use a for loop to store data from the file
+    - Take and store ID, firstName, and lastName in the struct
+    - Allocate memory for the memberData array
+    - Set statsStart to the first colunn after the first 3 fields
+    - Use a loop to read the data
+- Use a loop to update the data
+    - If the player ID's match, add new array to old array
+    - Break so no repeats
+- Close the file
+
+In void printData(int size, TeamMember theTeam[], char* fileName, int numStats, char* firstLine):
+- Open the output file
+- Write the header using firstLine
+- Use a loop to write player data in struct
+    - Use a nested loop to write array data within each struct
+    - Write a newline after each member entry
+- Close the output file

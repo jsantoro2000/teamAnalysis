@@ -1,0 +1,3 @@
+﻿ID	FirstName	LastName	points	catches	throws	games
+0	PlayerA	PlayerA	2	6	6	2
+1	PlayerB	PlayerB	5	12	3	3

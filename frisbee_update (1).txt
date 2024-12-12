@@ -1,0 +1,20 @@
+ID	firstName	lastName	games	pointsPlayed	possessions	scores	assists	goals	blocks	offensePP	defensivePP	minPlayed
+0	Jeff	Babbitt	1	20	22	3	1	3	2	16	4	26
+1	Simon	Carapella	1	17	21	4	1	3	0	17	0	24
+2	Peter	Boerth	1	13	12	3	2	2	0	7	7	18
+3	Benjamin	Sadok	1	15	19	4	3	1	0	15	0	21
+4	Orion	Cable	1	10	10	3	0	2	0	8	2	13
+5	Tannor	Johnson-Go	1	11	13	2	1	1	0	10	1	14
+6	Luke	Webb	1	13	7	1	0	1	1	0	13	16
+7	Brendan	McCann	1	15	8	1	1	0	1	0	14	18
+8	Rocco	Linehan	1	9	5	1	0	0	1	0	9	10
+9	Tyler	Chan	1	11	13	2	1	1	0	10	1	16
+10	Gabe	Colton	1	10	6	1	0	0	1	0	10	12
+11	Colin	Sunde	1	13	17	2	1	0	0	13	0	18
+12	Reed	Browning	1	12	6	1	1	0	0	0	12	15
+13	Ben	Katz	1	7	4	1	0	1	0	0	7	9
+14	Gustav	Haflin	1	10	6	1	0	0	1	0	9	12
+15	Jonah	Stang-Osborne	1	10	5	1	1	0	0	1	10	11
+17	Topher	Davis	1	8	6	0	0	0	0	1	7	12
+19	Nathanial	Dick	1	12	15	2	1	0	0	12	0	16
+
